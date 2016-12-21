@@ -10,6 +10,7 @@
   height: 8px;
   border-radius: 100%;
   background-color: blue;
+  z-index:10;
 }
 #dot1{
   left: 75px;
@@ -42,7 +43,6 @@
   position:absolute;
   top:2px;
   left:77px;
-  z-index: -1;
   transform-origin: left;
 }
 #e1-3{
@@ -117,4 +117,7 @@
 #e5-6{
   top: 261px;
   transform: rotate(240.5deg);
+}
+#feedback{
+  text-align:center;
 }
